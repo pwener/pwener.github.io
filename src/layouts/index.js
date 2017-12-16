@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import { Container } from 'react-responsive-grid'
+import BlogHeader from '../components/Header'
 
 import { rhythm, scale } from '../utils/typography'
 
@@ -37,36 +38,21 @@ class Template extends React.Component {
       )
     } else {
       header = (
-        <h3
-          style={{
-            fontFamily: 'Montserrat, sans-serif',
-            marginTop: 0,
-            marginBottom: rhythm(-1),
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
-            }}
-            to={'/'}
-          >
-            Blog do Wener
-          </Link>
-        </h3>
+        <BlogHeader />
       )
     }
     return (
-      <Container
-        style={{
-          maxWidth: rhythm(32),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
-      >
+      <div>
         {header}
-        {children()}
-      </Container>
+        <Container
+          style={{
+            maxWidth: rhythm(32),
+            padding: `${rhythm(0)} ${rhythm(3 / 4)}`,
+          }}
+        >
+          {children()}
+        </Container>
+      </div>
     )
   }
 }
