@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import { Container } from 'react-responsive-grid'
-import BlogHeader from '../components/Header'
+import IndexHeader from '../components/Header'
 
 import { rhythm, scale } from '../utils/typography'
 
@@ -17,28 +17,28 @@ class Template extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
-          style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
-            }}
-            to={'/'}
-          >
-            Blog do Wener
-          </Link>
-        </h1>
+        <IndexHeader />
       )
     } else {
       header = (
-        <BlogHeader />
+        <h1
+        style={{
+          ...scale(1.5),
+          marginBottom: rhythm(1.5),
+          marginTop: 0,
+        }}
+      >
+        <Link
+          style={{
+            boxShadow: 'none',
+            textDecoration: 'none',
+            color: 'inherit',
+          }}
+          to={'/'}
+        >
+          Blog do Wener
+        </Link>
+      </h1>
       )
     }
     return (

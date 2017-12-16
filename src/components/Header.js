@@ -5,7 +5,7 @@ import particlesConfig from '../config/particles-config.json'
 import Particles from 'react-particles-js';
 import { isAbsolute } from 'path';
 
-class BlogHeader extends Component {
+class IndexHeader extends Component {
     constructor(props) {
         super(props)
     }
@@ -16,7 +16,7 @@ class BlogHeader extends Component {
         return (
             <div style={{
                 height: '35vh',
-                width: '100vw',
+                width: '100%',
                 textAlign: 'center',
             }}>
                 <Particles
@@ -40,4 +40,4 @@ class BlogHeader extends Component {
     }
 }
 
-export default BlogHeader
+export default IndexHeader
