@@ -1,7 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
+
 import { Container } from 'react-responsive-grid'
+
+import BurguerMenu from '../components/BurguerMenu'
 import IndexHeader from '../components/Header'
+
+import styles from '../components/styles'
 
 import { rhythm, scale } from '../utils/typography'
 
@@ -21,24 +26,9 @@ class Template extends React.Component {
       )
     } else {
       header = (
-        <h1
-        style={{
-          ...scale(1.5),
-          marginBottom: rhythm(1.5),
-          marginTop: 0,
-        }}
-      >
-        <Link
-          style={{
-            boxShadow: 'none',
-            textDecoration: 'none',
-            color: 'inherit',
-          }}
-          to={'/'}
-        >
-          Blog do Wener
-        </Link>
-      </h1>
+        <div style={{height: 36}}>
+          <BurguerMenu />
+        </div>
       )
     }
     return (

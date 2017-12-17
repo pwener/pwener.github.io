@@ -1,19 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import particlesConfig from '../config/particles-config.json'
 
 import Particles from 'react-particles-js'
 
-import { bubble as Menu } from 'react-burger-menu'
+import BurguerMenu from './BurguerMenu'
 
 import { isAbsolute, relative } from 'path'
 
-import './hardStyles.css'
 import styles from './styles'
 
-import { MdPermIdentity, MdContactMail, MdHome, MdFolderSpecial } from 'react-icons/lib/md'
-
-class IndexHeader extends Component {
+class IndexHeader extends React.Component {
     constructor(props) {
         super(props)
     }
@@ -24,12 +21,7 @@ class IndexHeader extends Component {
         return (
             <div style={styles.headContainer}>
                 <div style={styles.headerWrapper}>
-                    <Menu styles={styles.reactBurguerMenu}>
-                        <a className="menu-item" href="/"><MdHome /> Página Inicial</a>
-                        <a className="menu-item" href="/about"><MdPermIdentity /> Sobre mim</a>
-                        <a className="menu-item" href="/contact"><MdContactMail /> Contato</a>
-                        <a className="menu-item" href="/portifolio"><MdFolderSpecial /> Portifólio</a>
-                    </Menu>
+                    <BurguerMenu />
 
                     <Particles
                         width={'100%'}

@@ -8,7 +8,7 @@ const styles = {
             top: '36px'
         },
         bmBurgerBars: {
-            background: '#ecf0f1',
+            background: '#7f8c8d',
         },
         bmCrossButton: {
             height: '24px',
