@@ -11,7 +11,7 @@ import { isAbsolute, relative } from 'path'
 import './hardStyles.css'
 import styles from './styles'
 
-import { MdPermIdentity, MdContactMail, MdHome } from 'react-icons/lib/md'
+import { MdPermIdentity, MdContactMail, MdHome, MdFolderSpecial } from 'react-icons/lib/md'
 
 class IndexHeader extends Component {
     constructor(props) {
@@ -28,6 +28,7 @@ class IndexHeader extends Component {
                         <a className="menu-item" href="/"><MdHome /> Página Inicial</a>
                         <a className="menu-item" href="/about"><MdPermIdentity /> Sobre mim</a>
                         <a className="menu-item" href="/contact"><MdContactMail /> Contato</a>
+                        <a className="menu-item" href="/portifolio"><MdFolderSpecial /> Portifólio</a>
                     </Menu>
 
                     <Particles
