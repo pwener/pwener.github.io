@@ -24,3 +24,11 @@
 .footer-icon:HOVER {
     color: #bdc3c7;
 }
+
+.about {
+    text-align: center;
+}
+
+.about .content {
+    text-align: justify;
+}
