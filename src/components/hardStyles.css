@@ -14,3 +14,13 @@
     color: #007acc;
 }
 
+.footer-icon {
+    box-shadow: none;
+    font-size: 40px;
+    margin: 0.5em;
+    color: #7f8c8d;
+}
+
+.footer-icon:HOVER {
+    color: #bdc3c7;
+}

@@ -27,9 +27,9 @@ class Bio extends React.Component {
           }}
         />
         <p>
-          Escrito por <strong>Phelipe Wener</strong> que é programador fullstack,
-          promissor(mas não tanto) Engenheiro de Software e perfeccionista. 
-          Acha que falar de si próprio é uma bobagem.
+          Escrito por <strong>Phelipe Wener</strong>. Engenheiro de Software por formação,
+          desenvolvedor <i>Fullstack</i> por tentativa e erro, supervaloriza o conhecimento, 
+          gosta de ler, ser noob em jogos eletrônicos e odeia falar dele mesmo na terceira pessoa.
         </p>
       </div>
     )

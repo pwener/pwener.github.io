@@ -5,6 +5,7 @@ import { Container } from 'react-responsive-grid'
 
 import BurguerMenu from '../components/BurguerMenu'
 import IndexHeader from '../components/Header'
+import Footer from '../components/Footer'
 
 import styles from '../components/styles'
 
@@ -41,6 +42,7 @@ class Template extends React.Component {
           }}
         >
           {children()}
+          <Footer />
         </Container>
       </div>
     )
