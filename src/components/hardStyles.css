@@ -1,0 +1,12 @@
+/** Hard css style **/
+
+.bm-item-list a {
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.bm-item-list a:HOVER {
+    text-decoration: none;
+    color: #ecf0f1;
+}
+

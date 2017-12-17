@@ -21,17 +21,17 @@ const styles = {
             background: '#373a47',
             padding: '2.5em 1.5em 0',
             fontSize: '1.15em',
+            textAlign: 'left',
         },
         bmMorphShape: {
             fill: '#373a47'
         },
         bmItemList: {
-            color: '#b8b7ad',
-            padding: '0.8em'
+            padding: '0.8em',
         },
         bmOverlay: {
             background: 'rgba(0, 0, 0, 0.3)'
-        }
+        },
     },
 
     headContainer: {
@@ -47,11 +47,18 @@ const styles = {
         left: 0
     },
 
+    particlesExtraStyle : {
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        background: "#2c3e50"
+    },
+
     description: {
         position: 'relative',
         lineHeight: 0.1,
         color: '#FFF'
-    }
+    },
 }
 
 export default styles;
