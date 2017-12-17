@@ -19,7 +19,7 @@ const styles = {
         },
         bmMenu: {
             background: '#373a47',
-            padding: '2.5em 1.5em 0',
+            padding: '2.0em 1.0em 0',
             fontSize: '1.15em',
             textAlign: 'left',
         },

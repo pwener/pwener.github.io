@@ -3,10 +3,14 @@
 .bm-item-list a {
     box-shadow: none;
     text-decoration: none;
+    font-size: 20px;
+    line-height: 40px;
+    color: #ecf0f1;
+    vertical-align: middle;
 }
 
 .bm-item-list a:HOVER {
     text-decoration: none;
-    color: #ecf0f1;
+    color: #007acc;
 }
 

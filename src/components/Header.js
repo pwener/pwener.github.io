@@ -9,8 +9,9 @@ import { bubble as Menu } from 'react-burger-menu'
 import { isAbsolute, relative } from 'path'
 
 import './hardStyles.css'
-
 import styles from './styles'
+
+import { MdPermIdentity, MdContactMail, MdHome } from 'react-icons/lib/md'
 
 class IndexHeader extends Component {
     constructor(props) {
@@ -24,13 +25,13 @@ class IndexHeader extends Component {
             <div style={styles.headContainer}>
                 <div style={styles.headerWrapper}>
                     <Menu styles={styles.reactBurguerMenu}>
-                        <a className="menu-item" href="/">Home</a>
-                        <a className="menu-item" href="/about">About</a>
-                        <a className="menu-item" href="/contact">Contact</a>
+                        <a className="menu-item" href="/"><MdHome /> Página Inicial</a>
+                        <a className="menu-item" href="/about"><MdPermIdentity /> Sobre mim</a>
+                        <a className="menu-item" href="/contact"><MdContactMail /> Contato</a>
                     </Menu>
 
-                    <Particles 
-                        width={'100%'} 
+                    <Particles
+                        width={'100%'}
                         height={'40vh'}
                         params={{
                             particles: particlesConfig.particles,
