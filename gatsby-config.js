@@ -5,7 +5,7 @@ module.exports = {
     description: 'Filosofando sobre Software',
     siteUrl: '',
   },
-  pathPrefix: '/pwener.github.io',
+  pathPrefix: '/',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
