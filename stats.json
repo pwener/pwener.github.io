@@ -1,0 +1,64 @@
+{
+  "assetsByChunkName": {
+    "path---my-second-post": [
+      "path---my-second-post-2259622a7beae27fb159.js",
+      "path---my-second-post-2259622a7beae27fb159.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-71443b5c064f5c3d74b9.js",
+      "component---src-pages-index-js-71443b5c064f5c3d74b9.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-69084c62e3fec361bf2a.js",
+      "component---src-templates-blog-post-js-69084c62e3fec361bf2a.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-d54b4e56f1ce804120b8.js",
+      "component---src-layouts-index-js-d54b4e56f1ce804120b8.js.map"
+    ],
+    "path---hi-folks": [
+      "path---hi-folks-d1aeb25ac7ecb0b5ee12.js",
+      "path---hi-folks-d1aeb25ac7ecb0b5ee12.js.map"
+    ],
+    "path---index": [
+      "path---index-62d5c1731de73846d6a3.js",
+      "path---index-62d5c1731de73846d6a3.js.map"
+    ],
+    "path---hello-world": [
+      "path---hello-world-0d34b345787bcb5f9612.js",
+      "path---hello-world-0d34b345787bcb5f9612.js.map"
+    ],
+    "commons": [
+      "commons-1160cfc9c4221c8e2d36.js",
+      "build-js-styles.css",
+      "commons-1160cfc9c4221c8e2d36.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-aa6164ca7ab23fe56b02.js",
+      "build-js-styles.css",
+      "app-aa6164ca7ab23fe56b02.js.map",
+      "build-js-styles.css.map"
+    ],
+    "component---src-pages-about-js": [
+      "component---src-pages-about-js-6e043d67782986b6d55c.js",
+      "component---src-pages-about-js-6e043d67782986b6d55c.js.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
