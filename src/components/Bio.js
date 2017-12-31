@@ -22,13 +22,13 @@ class Bio extends React.Component {
           style={{
             marginRight: rhythm(1 / 2),
             marginBottom: 0,
-            width: rhythm(2),
-            height: rhythm(2),
+            width: rhythm(3),
+            height: rhythm(3),
           }}
         />
         <p>
           Escrito por <strong>Phelipe Wener</strong>. Engenheiro de Software por formação,
-          desenvolvedor <i>Fullstack</i> por tentativa e erro, supervaloriza o conhecimento, 
+          desenvolvedor <i>Fullstack</i> por tentativa e erro, supervaloriza o conhecimento,
           gosta de ler, ser noob em jogos eletrônicos e odeia falar dele mesmo na terceira pessoa.
         </p>
       </div>

@@ -1,8 +1,8 @@
-# gatsby-starter-blog
-Gatsby starter for creating a blog
+# My Gatsby Blog
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-blog https://github.com/gatsbyjs/gatsby-starter-blog`
+This is my elegant and faster blog!
 
-## Running in development
-`gatsby develop`
+## Deploy
+
+- Just use `yarn deploy`
+- This will be published into gh-pages branch
