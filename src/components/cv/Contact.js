@@ -12,15 +12,15 @@ class Contact extends React.Component {
   render() {
     return (
       <div>
-        <p>{this.props.email} <FaEnvelope/></p>
-        <p>{this.props.number} <FaPhone /></p>
-        <p>{this.props.address} <FaHome /></p>
-        <p>
+        <div>{this.props.email} <FaEnvelope/></div>
+        <div>{this.props.number} <FaPhone /></div>
+        <div>{this.props.address} <FaHome /></div>
+        <div>
           <a href={'https://github.com/' + this.props.github}>
             {'https://github.com/' + this.props.github}
           </a>
           &nbsp;<FaGithub />
-        </p>
+        </div>
       </div>
     )
   }

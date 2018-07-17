@@ -11,7 +11,7 @@ class Education extends React.Component {
     return (
       <div>
         <h2 className="cv-subsection">{this.props.course}</h2>
-        <p>{this.props.description}</p>
+        <div>{this.props.description}</div>
       </div>
     )
   }

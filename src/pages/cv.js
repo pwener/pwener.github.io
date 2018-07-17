@@ -3,12 +3,12 @@ import React from 'react'
 import profilePic from '../assets/profile-pic.jpg'
 import { rhythm } from '../utils/typography'
 
-import '../components/hardStyles.css'
-
 import Experience from '../components/cv/Experience'
 import Education from '../components/cv/Education'
 import Contact from '../components/cv/Contact'
 import Skills from '../components/cv/Skills'
+
+import '../components/hardStyles.css'
 
 class Curriculum extends React.Component {
     render() {

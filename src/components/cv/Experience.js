@@ -11,9 +11,9 @@ class Experience extends React.Component {
     return (
       <div>
         <h2 className="cv-subsection">{this.props.title}</h2>
-        <p className="cv-normal-text role">{this.props.role}</p>
-        <p className="cv-normal-text">{this.props.date}</p>
-        <p className="cv-normal-text">{this.props.description}</p>
+        <div className="role">{this.props.role}</div>
+        <div>{this.props.date}</div>
+        <div>{this.props.description}</div>
       </div>
     )
   }

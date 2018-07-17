@@ -18,8 +18,7 @@ class BurguerMenu extends React.Component {
             <Menu styles={styles.reactBurguerMenu}>
                 <a className="menu-item" href="/"><MdHome /> Página Inicial</a>
                 <a className="menu-item" href="/about"><MdPermIdentity /> Sobre mim</a>
-                <a className="menu-item" href="/contact"><MdContactMail /> Contato</a>
-                <a className="menu-item" href="/portifolio"><MdFolderSpecial /> Portifólio</a>
+                <a className="menu-item" href="/cv"><MdFolderSpecial /> Curriculum</a>
             </Menu>
         )
     }
