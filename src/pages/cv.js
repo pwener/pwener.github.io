@@ -1,0 +1,95 @@
+import React from 'react'
+
+import profilePic from '../assets/profile-pic.jpg'
+import { rhythm } from '../utils/typography'
+
+import '../components/hardStyles.css'
+
+import Experience from '../components/cv/Experience'
+import Education from '../components/cv/Education'
+import Contact from '../components/cv/Contact'
+import Skills from '../components/cv/Skills'
+
+class Curriculum extends React.Component {
+    render() {
+        return (
+            <div style={{textAlign: 'center', marginBottom: rhythm(2)}}>
+                <h1 style={{marginBottom: rhythm(1), marginTop: 0}}>Phelipe Wener</h1>
+                <h5 style={{marginBottom: rhythm(1), marginTop: 0, color: '#7f8c8d'}}>Engenheiro de Software</h5>
+                <img
+                    src={profilePic}
+                    alt={`Phelipe Wener`}
+                    style={{
+                        marginRight: rhythm(1 / 2),
+                        marginBottom: 0,
+                        width: rhythm(4),
+                        height: rhythm(4),
+                    }}
+                />
+                <div style={{display:'flex', textAlign: 'right'}}>
+                  <div className="split" style={{width: '50%'}}>
+
+                    <h2 style={{marginBottom: rhythm(1)}}>Experiências</h2>
+                    <Experience
+                      title={'D3'}
+                      role={'Engenheiro de Software'}
+                      date={'Janeiro de 2018 - Julho de 2018'}
+                      description={'Desenvolvimento em React Native e Python'} />
+
+                    <Experience
+                      title={'Basis TI'}
+                      role={'Estágiário'}
+                      date={'Agosto de 2017 - Janeiro de 2018'}
+                      description={'Interpretação de requisitos para contagem de pontos de função.'} />
+
+                    <Experience
+                      title={'Tribunal de Contas da União (TCU)'}
+                      role={'Estagiário'}
+                      date={'Janeiro de 2016 - Janeiro de 2017'}
+                      description={'Refatoração de código e criação de testes para projetos legados em Java.'} />
+
+                    <h2 style={{marginBottom: rhythm(1), marginTop: rhythm(2)}}>Contato</h2>
+
+                    <Contact
+                      email={'phwener@gmail.com'}
+                      number={'61 993224078'}
+                      address={'Setor Norte QD 01 CJ A Gama-DF'}
+                      github={'pwener'} />
+                  </div>
+
+                  <div className="split"
+                    style={{paddingLeft: rhythm(2), width: '40%', flexGrow: 1}}>
+
+                    <h2 style={{marginBottom: rhythm(1)}}>Educação</h2>
+
+                    <Education
+                      course={'Bacharel em Engenharia de Software'}
+                      description={'Universidade de Brasília, Gama-DF'} />
+
+                    <Education
+                      course={'Técnico Java Web'}
+                      description={'EIBSBNET, Brasilia-DF'} />
+
+                    <Education
+                      course={'Técnico Webdesign(HTML/CSS)'}
+                      description={'ETSP, Planaltina-DF'} />
+
+                    <h2 style={{marginBottom: rhythm(1)}}>Habilidades</h2>
+                    <Skills
+                      skills={[
+                        {name: 'Python', percent: 70},
+                        {name: 'Ruby', percent: 80},
+                        {name: 'Javascript', percent: 60},
+                        {name: 'Gerenciamento de projeto', percent: 85},
+                        {name: 'Docker', percent: 80},
+                        {name: 'Testes e Refatoração', percent: 90},
+                        {name: 'Requisitos de Software', percent: 90},
+                      ]}/>
+                  </div>
+                </div>
+            </div>
+        )
+    }
+}
+
+export default Curriculum
