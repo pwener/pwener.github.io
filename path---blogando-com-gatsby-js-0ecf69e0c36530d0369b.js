@@ -1,2 +1,0 @@
-webpackJsonp([0xd091c77bdad3],{373:function(a,e){a.exports={data:{site:{siteMetadata:{title:"Blog do Wener",author:"Phelipe Wener"}},markdownRemark:{id:"/home/kwener/Workspace/blog/src/pages/blogando-com-gatsby-js/index.md absPath of file >>> MarkdownRemark",html:'<p><a href="https://www.gatsbyjs.org/">Gatsbyjs</a> é um framework que</p>',frontmatter:{title:"Blogando com Gatsbyjs",date:"May 06, 2015"}}},pathContext:{slug:"/blogando-com-gatsby-js/"}}}});
-//# sourceMappingURL=path---blogando-com-gatsby-js-0ecf69e0c36530d0369b.js.map
