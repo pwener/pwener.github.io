@@ -31,16 +31,22 @@ class Curriculum extends React.Component {
 
                     <h2 style={{marginBottom: rhythm(1)}}>Experiências</h2>
                     <Experience
+                      title={'Goledger'}
+                      role={'Engenheiro de Software'}
+                      date={'Julho de 2018 - Até o momento'}
+                      description={'Desenvolvimento de Blockchain privadas, atua com as tecnologias React, Python e Golang'} />
+
+                    <Experience
                       title={'D3'}
                       role={'Engenheiro de Software'}
                       date={'Janeiro de 2018 - Julho de 2018'}
-                      description={'Desenvolvimento em React Native e Python'} />
+                      description={'Desenvolvimento de diversos projetos, atuou com React Native e Python'} />
 
                     <Experience
                       title={'Basis TI'}
                       role={'Estágiário'}
                       date={'Agosto de 2017 - Janeiro de 2018'}
-                      description={'Interpretação de requisitos para contagem de pontos de função.'} />
+                      description={'Interpretação de requisitos para contagem de pontos de função em projetos governamentais.'} />
 
                     <Experience
                       title={'Tribunal de Contas da União (TCU)'}
