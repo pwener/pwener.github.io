@@ -1,6 +1,6 @@
 import React from 'react'
 
-import profilePic from '../assets/profile-pic.jpg'
+import profilePic from '../assets/profile-pic.png'
 import { rhythm } from '../utils/typography'
 
 import Experience from '../components/cv/Experience'
@@ -17,14 +17,14 @@ class Curriculum extends React.Component {
                 <h1 style={{marginBottom: rhythm(1), marginTop: 0}}>Phelipe Wener</h1>
                 <h5 style={{marginBottom: rhythm(1), marginTop: 0, color: '#7f8c8d'}}>Engenheiro de Software</h5>
                 <img
-                    src={profilePic}
-                    alt={`Phelipe Wener`}
-                    style={{
-                        marginRight: rhythm(1 / 2),
-                        marginBottom: 0,
-                        width: rhythm(4),
-                        height: rhythm(4),
-                    }}
+                  src={profilePic}
+                  alt={`Phelipe Wener`}
+                  style={{
+                    marginRight: rhythm(1 / 2),
+                    marginBottom: 0,
+                    width: rhythm(5),
+                    height: rhythm(5),
+                  }}
                 />
                 <div style={{display:'flex', textAlign: 'right'}}>
                   <div className="split" style={{width: '50%'}}>
@@ -59,7 +59,7 @@ class Curriculum extends React.Component {
                     <Contact
                       email={'phwener@gmail.com'}
                       number={'61 993224078'}
-                      address={'Setor Norte QD 01 CJ A Gama-DF'}
+                      address={'Asa Norte CLN 306 Bloco B, Brasília - DF'}
                       github={'pwener'} />
                   </div>
 
@@ -83,13 +83,13 @@ class Curriculum extends React.Component {
                     <h2 style={{marginBottom: rhythm(1)}}>Habilidades</h2>
                     <Skills
                       skills={[
+                        {name: 'Devops', percent: 80},
+                        {name: 'Gerenciamento de projeto', percent: 90},
+                        {name: 'Javascript', percent: 95},
                         {name: 'Python', percent: 70},
-                        {name: 'Ruby', percent: 80},
-                        {name: 'Javascript', percent: 60},
-                        {name: 'Gerenciamento de projeto', percent: 85},
-                        {name: 'Docker', percent: 80},
-                        {name: 'Testes e Refatoração', percent: 90},
-                        {name: 'Requisitos de Software', percent: 90},
+                        {name: 'Requisitos de Software', percent: 95},
+                        {name: 'Ruby', percent: 70},
+                        {name: 'Testes e Refatoração', percent: 80},
                       ]}/>
                   </div>
                 </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import aboutPic from '../assets/about-pic.jpg'
+import aboutPic from '../assets/profile-pic.png'
 import { rhythm } from '../utils/typography'
 
 import '../components/hardStyles.css'
@@ -22,13 +22,12 @@ class AboutPage extends React.Component {
                 <h2 style={{marginBottom: rhythm(2)}}>Sobre mim</h2>
                 <div className="content">
                     <p>
-                      Sempre aberto a tentar e aprender. Sou sujeito que gosta
-                      de muitas coisas e odeia outras na mesma
-                      intensidade(risos).
-                      Adoro conversas estranhas, principalmente se for pra criar
-                      teorias malucas de filmes ou séries. Gosto também de
-                      música, um bom café, viajar, praticar esportes e um
-                      barzinho com os amigos.
+                      Aberto para aprender coisas novas. Constantemente estou explorando 
+                      o conhecimento externo a minha área de formação. 
+                      Adoro conversas sobre ciência, ficção, filosofia e artes, 
+                      principalmente se for pra criar teorias malucas de filmes e séries. 
+                      Admiro a música em suas várias formas, gosto de um bom café, viajar, 
+                      praticar esportes, cantar e tentar tocar algo.
                     </p>
                     <p>
                       Profissionalmente, tudo começou por volta de uns 10 anos
