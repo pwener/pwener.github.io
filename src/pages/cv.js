@@ -31,9 +31,15 @@ class Curriculum extends React.Component {
 
                     <h2 style={{marginBottom: rhythm(1)}}>Experiências</h2>
                     <Experience
+                      title={'ZRP Aplicações Informáticas LTDA'}
+                      role={'Desenvolvedor Full-Stack'}
+                      date={'Julho de 2018 - Até o momento'}
+                      description={'Desenvolvimento mobile'} />
+
+                    <Experience
                       title={'Goledger'}
                       role={'Engenheiro de Software'}
-                      date={'Julho de 2018 - Até o momento'}
+                      date={'Julho de 2018 - Outubro de 2019'}
                       description={'Desenvolvimento de Blockchain privadas, atua com as tecnologias React, Python e Golang'} />
 
                     <Experience
