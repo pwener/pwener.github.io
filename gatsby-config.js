@@ -5,7 +5,6 @@ module.exports = {
     description: 'Filosofando sobre Software',
     siteUrl: '',
   },
-  pathPrefix: '/',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
