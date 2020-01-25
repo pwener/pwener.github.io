@@ -1,0 +1,68 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-5abde90f34190c156090.js",
+      "component---src-pages-index-js-5abde90f34190c156090.js.map"
+    ],
+    "path---cv": [
+      "path---cv-a0e39f21c11f6a62c5ab.js",
+      "path---cv-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---desenvolvimento-software-artesanal": [
+      "path---desenvolvimento-software-artesanal-88eb44553c17076d0877.js",
+      "path---desenvolvimento-software-artesanal-88eb44553c17076d0877.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-4f53bbb6593cf08a9141.js",
+      "component---src-templates-blog-post-js-4f53bbb6593cf08a9141.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-15cf18005f6dd6ef0cd4.js",
+      "component---src-layouts-index-js-15cf18005f6dd6ef0cd4.js.map"
+    ],
+    "path---index": [
+      "path---index-c4d1212ff1adf9277d82.js",
+      "path---index-c4d1212ff1adf9277d82.js.map"
+    ],
+    "path---hello-world": [
+      "path---hello-world-20b75ebedab6e8c5d6fc.js",
+      "path---hello-world-20b75ebedab6e8c5d6fc.js.map"
+    ],
+    "commons": [
+      "commons-6f39cd2076a7ea5aa531.js",
+      "build-js-styles.css",
+      "commons-6f39cd2076a7ea5aa531.js.map",
+      "build-js-styles.css.map"
+    ],
+    "component---src-pages-cv-js": [
+      "component---src-pages-cv-js-07dca0e51dbddff2ef57.js",
+      "component---src-pages-cv-js-07dca0e51dbddff2ef57.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-a6ab662f82cc7b0cb93e.js",
+      "build-js-styles.css",
+      "app-a6ab662f82cc7b0cb93e.js.map",
+      "build-js-styles.css.map"
+    ],
+    "component---src-pages-about-js": [
+      "component---src-pages-about-js-a7e471b1fb86d496b3ef.js",
+      "component---src-pages-about-js-a7e471b1fb86d496b3ef.js.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}

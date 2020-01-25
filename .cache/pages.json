@@ -1,0 +1,44 @@
+[
+    {
+        "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "offline-plugin-app-shell-fallback.json",
+        "path": "/offline-plugin-app-shell-fallback/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "hello-world.json",
+        "path": "/hello-world/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "desenvolvimento-software-artesanal.json",
+        "path": "/desenvolvimento-software-artesanal/"
+    },
+    {
+        "componentChunkName": "component---src-pages-about-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "about.json",
+        "path": "/about/"
+    },
+    {
+        "componentChunkName": "component---src-pages-cv-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "cv.json",
+        "path": "/cv/"
+    },
+    {
+        "componentChunkName": "component---src-pages-index-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "index.json",
+        "path": "/"
+    }
+]

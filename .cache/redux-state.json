@@ -1,0 +1,2154 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a70e50938edff2cbc9ac6251f9c76edd",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d5bf41428fbbaef5a2c491c744afe3a9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2b45027008f8eba9990fb201e2a52b4c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4a86f1d442e9344d425afc70099020d9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5103bb29200b4fc68259d67b1806ebb2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a7485e7e40da7926b8107d56f2189aca",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.8",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/home/pwener/Workspace/pwener.github.io/src/pages",
+        "name": "pages"
+      },
+      "nodeAPIs": [
+        "sourceNodes"
+      ],
+      "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.8",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c53ae6a3c2cea5d63633b1bc89af17df",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.21",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-remark-images",
+            "id": "Plugin gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "1.5.32",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 590,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "linkImagesToOriginal": true,
+              "pathPrefix": ""
+            },
+            "nodeAPIs": [],
+            "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-remark-responsive-iframe",
+            "id": "Plugin gatsby-remark-responsive-iframe",
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "1.4.14",
+            "pluginOptions": {
+              "plugins": [],
+              "wrapperStyle": "margin-bottom: 1.0725rem"
+            },
+            "nodeAPIs": [],
+            "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-remark-responsive-iframe"
+          },
+          {
+            "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-remark-prismjs",
+            "id": "Plugin gatsby-remark-prismjs",
+            "name": "gatsby-remark-prismjs",
+            "version": "1.2.9",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-remark-prismjs"
+          },
+          {
+            "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-remark-copy-linked-files",
+            "id": "Plugin gatsby-remark-copy-linked-files",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "1.5.21",
+            "pluginOptions": {
+              "plugins": [],
+              "ignoreFileExtensions": [
+                "png",
+                "jpg",
+                "jpeg",
+                "bmp",
+                "tiff"
+              ]
+            },
+            "nodeAPIs": [],
+            "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-remark-copy-linked-files"
+          },
+          {
+            "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-remark-smartypants",
+            "id": "Plugin gatsby-remark-smartypants",
+            "name": "gatsby-remark-smartypants",
+            "version": "1.4.8",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-remark-smartypants"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.21",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^2.1.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8b9cf8c398f9bdeb9323b1238a14f891",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "1.5.32",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 590,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "linkImagesToOriginal": true,
+        "pathPrefix": ""
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "1.5.32",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark",
+          "image",
+          "responsive images"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.21"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4497d7577b2c621393cb983559c2ac9c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-responsive-iframe": {
+      "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-remark-responsive-iframe",
+      "id": "Plugin gatsby-remark-responsive-iframe",
+      "name": "gatsby-remark-responsive-iframe",
+      "version": "1.4.14",
+      "pluginOptions": {
+        "plugins": [],
+        "wrapperStyle": "margin-bottom: 1.0725rem"
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-remark-responsive-iframe",
+      "packageJson": {
+        "name": "gatsby-remark-responsive-iframe",
+        "description": "Make iframes in Markdown processed by Remark responsive",
+        "version": "1.4.14",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "unist-util-find",
+            "version": "^1.0.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "aa7e0215ced52c58be546faa0e40fcf8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-prismjs": {
+      "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-remark-prismjs",
+      "id": "Plugin gatsby-remark-prismjs",
+      "name": "gatsby-remark-prismjs",
+      "version": "1.2.9",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "1.2.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "^0.0.2"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c49a05f8bca2298be957c83e5a92f3be",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-copy-linked-files": {
+      "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-remark-copy-linked-files",
+      "id": "Plugin gatsby-remark-copy-linked-files",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "1.5.21",
+      "pluginOptions": {
+        "plugins": [],
+        "ignoreFileExtensions": [
+          "png",
+          "jpg",
+          "jpeg",
+          "bmp",
+          "tiff"
+        ]
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-remark-copy-linked-files",
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "1.5.21",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "image-size",
+            "version": "^0.6.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "path-is-inside",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "55deac2952966264b59613f10436c5d1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-smartypants": {
+      "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-remark-smartypants",
+      "id": "Plugin gatsby-remark-smartypants",
+      "name": "gatsby-remark-smartypants",
+      "version": "1.4.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-remark-smartypants",
+      "packageJson": {
+        "name": "gatsby-remark-smartypants",
+        "description": "Use retext-smartypants to auto-enhance typography of markdown",
+        "version": "1.4.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "smartypants"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "retext",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-smartypants",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f404697ffc6c0044dffaec84158417fa",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "1.6.14",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "1.6.14",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sharp",
+          "image"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "image-size",
+            "version": "^0.6.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "791599508a7ce7e226691845091bc5a3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.48",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.48",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "5.0.1"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bbd69e0c2f51557397f808564094bc04",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-google-analytics": {
+      "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-plugin-google-analytics",
+      "id": "Plugin gatsby-plugin-google-analytics",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "1.0.12",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "1.0.12",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "74490b4bb89b44f68152df24cad3fddb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-feed": {
+      "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-plugin-feed",
+      "id": "Plugin gatsby-plugin-feed",
+      "name": "gatsby-plugin-feed",
+      "version": "1.3.13",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-plugin-feed",
+      "packageJson": {
+        "name": "gatsby-plugin-feed",
+        "description": "Creates an RSS feed for your Gatsby site.",
+        "version": "1.3.13",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "rss",
+          "atom",
+          "feed"
+        ],
+        "author": {
+          "name": "Nicholas Young",
+          "email": "nicholas@nicholaswyoung.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "lodash.merge",
+            "version": "^4.6.0"
+          },
+          {
+            "name": "pify",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "rss",
+            "version": "^1.2.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c9af0719a022bfb7a94db4c1b8080785",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-offline": {
+      "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-plugin-offline",
+      "id": "Plugin gatsby-plugin-offline",
+      "name": "gatsby-plugin-offline",
+      "version": "1.0.10",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "1.0.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "sw-precache",
+            "version": "^5.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "04d247eca6546eb263935f7d92a258a8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "1.0.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Stub description for gatsby-plugin-react-helmet",
+        "version": "1.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": {
+          "name": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bba4be47ed1d67e3976c7ac6c2f756ed",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-typography": {
+      "resolve": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-plugin-typography",
+      "id": "Plugin gatsby-plugin-typography",
+      "name": "gatsby-plugin-typography",
+      "version": "1.7.10",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "pluginFilepath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "1.7.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d37caaa128750d0e588ac76ac15062af",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/home/pwener/Workspace/pwener.github.io",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "74f9f49b9f699fca6427cc6d3fb79603",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onCreateNode"
+      ],
+      "pluginFilepath": "/home/pwener/Workspace/pwener.github.io",
+      "packageJson": {
+        "name": "gatsby-starter-blog",
+        "description": "Starter Gatsby Blog",
+        "version": "1.0.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.118"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.28"
+          },
+          {
+            "name": "gatsby-plugin-feed",
+            "version": "^1.3.13"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^1.0.12"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^1.0.10"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^1.0.8"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.21"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^1.7.10"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "^1.5.21"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^1.5.32"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "^1.2.9"
+          },
+          {
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "^1.4.14"
+          },
+          {
+            "name": "gatsby-remark-smartypants",
+            "version": "^1.4.8"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.8"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.21"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^1.6.14"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.15"
+          },
+          {
+            "name": "rc-progress",
+            "version": "^2.2.5"
+          },
+          {
+            "name": "react-burger-menu",
+            "version": "^2.1.11"
+          },
+          {
+            "name": "react-icons",
+            "version": "^2.2.7"
+          },
+          {
+            "name": "react-particles-js",
+            "version": "^2.1.0"
+          },
+          {
+            "name": "react-responsive-grid",
+            "version": "^0.3.4"
+          },
+          {
+            "name": "typeface-merriweather",
+            "version": "0.0.43"
+          },
+          {
+            "name": "typeface-montserrat",
+            "version": "0.0.43"
+          },
+          {
+            "name": "typography-theme-wordpress-2016",
+            "version": "^0.15.10"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "eslint",
+            "version": "^4.11.0"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.5.1"
+          },
+          {
+            "name": "gh-pages",
+            "version": "^1.1.0"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.8.2"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "fd7ce5dd377ecaad39edb4019b9fea46",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Blog do Wener",
+        "author": "Phelipe Wener",
+        "description": "Filosofando sobre Software",
+        "siteUrl": ""
+      },
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2020-01-25T01:43:37.259Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "47b6e05ebdcb3594099fefaf57695f2d",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/home/pwener/Workspace/pwener.github.io/src/pages absPath of file": {
+      "id": "/home/pwener/Workspace/pwener.github.io/src/pages absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d4560c62689ebc1d197923985aa25483",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/pwener/Workspace/pwener.github.io/src/pages",
+      "relativePath": "",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2020-01-25T01:38:43.322Z",
+      "accessTime": "2020-01-25T01:38:57.622Z",
+      "changeTime": "2020-01-25T01:38:43.322Z",
+      "birthTime": "2020-01-25T01:38:43.206Z",
+      "root": "/",
+      "dir": "/home/pwener/Workspace/pwener.github.io/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "..",
+      "dev": 2049,
+      "mode": 16893,
+      "nlink": 4,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29896470,
+      "blocks": 8,
+      "atimeMs": 1579916337621.722,
+      "mtimeMs": 1579916323321.5447,
+      "ctimeMs": 1579916323321.5447,
+      "birthtimeMs": 1579916323205.5432,
+      "atime": "2020-01-25T01:38:57.622Z",
+      "mtime": "2020-01-25T01:38:43.322Z",
+      "ctime": "2020-01-25T01:38:43.322Z",
+      "birthtime": "2020-01-25T01:38:43.206Z"
+    },
+    "/home/pwener/Workspace/pwener.github.io/src/pages/desenvolvimento-software-artesanal absPath of file": {
+      "id": "/home/pwener/Workspace/pwener.github.io/src/pages/desenvolvimento-software-artesanal absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "289681309d4a6a0f7eccd3b060aae917",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/pwener/Workspace/pwener.github.io/src/pages/desenvolvimento-software-artesanal",
+      "relativePath": "desenvolvimento-software-artesanal",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2020-01-25T01:38:43.250Z",
+      "accessTime": "2020-01-25T01:38:57.646Z",
+      "changeTime": "2020-01-25T01:38:43.250Z",
+      "birthTime": "2020-01-25T01:38:43.250Z",
+      "root": "/",
+      "dir": "/home/pwener/Workspace/pwener.github.io/src/pages",
+      "base": "desenvolvimento-software-artesanal",
+      "ext": "",
+      "name": "desenvolvimento-software-artesanal",
+      "relativeDirectory": "",
+      "dev": 2049,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29896473,
+      "blocks": 8,
+      "atimeMs": 1579916337645.7222,
+      "mtimeMs": 1579916323249.5437,
+      "ctimeMs": 1579916323249.5437,
+      "birthtimeMs": 1579916323249.5437,
+      "atime": "2020-01-25T01:38:57.646Z",
+      "mtime": "2020-01-25T01:38:43.250Z",
+      "ctime": "2020-01-25T01:38:43.250Z",
+      "birthtime": "2020-01-25T01:38:43.250Z"
+    },
+    "/home/pwener/Workspace/pwener.github.io/src/pages/hello-world absPath of file": {
+      "id": "/home/pwener/Workspace/pwener.github.io/src/pages/hello-world absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0128a66bb1f5c61f995eed914617f29a",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/pwener/Workspace/pwener.github.io/src/pages/hello-world",
+      "relativePath": "hello-world",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2020-01-25T01:38:43.290Z",
+      "accessTime": "2020-01-25T01:38:57.646Z",
+      "changeTime": "2020-01-25T01:38:43.290Z",
+      "birthTime": "2020-01-25T01:38:43.250Z",
+      "root": "/",
+      "dir": "/home/pwener/Workspace/pwener.github.io/src/pages",
+      "base": "hello-world",
+      "ext": "",
+      "name": "hello-world",
+      "relativeDirectory": "",
+      "dev": 2049,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 30023514,
+      "blocks": 8,
+      "atimeMs": 1579916337645.7222,
+      "mtimeMs": 1579916323289.5442,
+      "ctimeMs": 1579916323289.5442,
+      "birthtimeMs": 1579916323249.5437,
+      "atime": "2020-01-25T01:38:57.646Z",
+      "mtime": "2020-01-25T01:38:43.290Z",
+      "ctime": "2020-01-25T01:38:43.290Z",
+      "birthtime": "2020-01-25T01:38:43.250Z"
+    },
+    "/home/pwener/Workspace/pwener.github.io/src/pages/cv.js absPath of file": {
+      "id": "/home/pwener/Workspace/pwener.github.io/src/pages/cv.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a214c07a41d7db7603fb4887261ca2a6",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/pwener/Workspace/pwener.github.io/src/pages/cv.js",
+      "relativePath": "cv.js",
+      "extension": "js",
+      "size": 4560,
+      "prettySize": "4.56 kB",
+      "modifiedTime": "2020-01-25T01:41:18.152Z",
+      "accessTime": "2020-01-25T01:41:18.236Z",
+      "changeTime": "2020-01-25T01:41:18.152Z",
+      "birthTime": "2020-01-25T01:38:43.250Z",
+      "root": "/",
+      "dir": "/home/pwener/Workspace/pwener.github.io/src/pages",
+      "base": "cv.js",
+      "ext": ".js",
+      "name": "cv",
+      "relativeDirectory": "",
+      "dev": 2049,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29896472,
+      "blocks": 16,
+      "atimeMs": 1579916478235.5051,
+      "mtimeMs": 1579916478151.504,
+      "ctimeMs": 1579916478151.504,
+      "birthtimeMs": 1579916323249.5437,
+      "atime": "2020-01-25T01:41:18.236Z",
+      "mtime": "2020-01-25T01:41:18.152Z",
+      "ctime": "2020-01-25T01:41:18.152Z",
+      "birthtime": "2020-01-25T01:38:43.250Z"
+    },
+    "/home/pwener/Workspace/pwener.github.io/src/pages/hello-world/index.md absPath of file": {
+      "id": "/home/pwener/Workspace/pwener.github.io/src/pages/hello-world/index.md absPath of file",
+      "children": [
+        "/home/pwener/Workspace/pwener.github.io/src/pages/hello-world/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8e3484f794c8d1cdae393bbbd3a70ad1",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/pwener/Workspace/pwener.github.io/src/pages/hello-world/index.md",
+      "relativePath": "hello-world/index.md",
+      "extension": "md",
+      "size": 2390,
+      "prettySize": "2.39 kB",
+      "modifiedTime": "2019-04-19T05:43:04.660Z",
+      "accessTime": "2019-04-19T05:43:40.944Z",
+      "changeTime": "2019-04-19T05:43:04.660Z",
+      "birthTime": "2019-04-19T05:43:04.660Z",
+      "root": "/",
+      "dir": "/home/pwener/Workspace/pwener.github.io/src/pages/hello-world",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "hello-world",
+      "dev": 2049,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 13120291,
+      "blocks": 8,
+      "atimeMs": 1555652620944.0999,
+      "mtimeMs": 1555652584660.1873,
+      "ctimeMs": 1555652584660.1873,
+      "birthtimeMs": 1555652584660.1873,
+      "atime": "2019-04-19T05:43:40.944Z",
+      "mtime": "2019-04-19T05:43:04.660Z",
+      "ctime": "2019-04-19T05:43:04.660Z",
+      "birthtime": "2019-04-19T05:43:04.660Z"
+    },
+    "/home/pwener/Workspace/pwener.github.io/src/pages/index.js absPath of file": {
+      "id": "/home/pwener/Workspace/pwener.github.io/src/pages/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "88312b9458de1207461b29037d509e88",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/pwener/Workspace/pwener.github.io/src/pages/index.js",
+      "relativePath": "index.js",
+      "extension": "js",
+      "size": 1499,
+      "prettySize": "1.5 kB",
+      "modifiedTime": "2019-04-19T05:43:04.672Z",
+      "accessTime": "2019-04-19T05:43:40.948Z",
+      "changeTime": "2019-04-19T05:43:04.672Z",
+      "birthTime": "2019-04-19T05:43:04.672Z",
+      "root": "/",
+      "dir": "/home/pwener/Workspace/pwener.github.io/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 2049,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 13009728,
+      "blocks": 8,
+      "atimeMs": 1555652620948.0999,
+      "mtimeMs": 1555652584672.1873,
+      "ctimeMs": 1555652584672.1873,
+      "birthtimeMs": 1555652584672.1873,
+      "atime": "2019-04-19T05:43:40.948Z",
+      "mtime": "2019-04-19T05:43:04.672Z",
+      "ctime": "2019-04-19T05:43:04.672Z",
+      "birthtime": "2019-04-19T05:43:04.672Z"
+    },
+    "/home/pwener/Workspace/pwener.github.io/src/pages/hello-world/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/home/pwener/Workspace/pwener.github.io/src/pages/hello-world/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/home/pwener/Workspace/pwener.github.io/src/pages/hello-world/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Hello World\ndate: \"2017-12-24T22:12:03.284Z\"\n---\n\nEspero que essa seja a minha primeira postagem de muitas, e nada mais justo do que começar escrevendo sobre as minhas motivações para ter esse espaço. Bom, nos últimos anos se tornou muito fácil publicar conteúdo na internet, plataformas _blog_ e redes sociais democratizaram a voz da “verdade”. Dentre tanto conteúdo, há muitas opiniões não especialistas, que em vez de ajudar em qualquer coisa (que não seja massagear o ego de quem publica), apenas confunde ou desinforma os leitores que não possuem critérios para absorver informação. Logo, o primeiro princípio deste _blog_, é que não será publicado nada além do que é a minha área de formação.\n\nVale também ressaltar, que os motivos que me levaram a manter esse projeto são os mesmos que me levam a ser um entusiasta de software livre, algo que alguns não compreendem e erroneamente rotulam como uma pretensão meramente altruísta, é na verdade, concordando em partes com o _post_ do [Akita](http://www.akitaonrails.com/2016/04/22/off-topic-software-livre-exercicio-de-capitalismo), uma estratégia de carreira, pois faço isso como uma forma de me beneficiar enquanto contribuo com algo que gosto, fazendo também parte de algo maior. Nesse aspecto, com esse espaço almejo atingir além do mundo _opensource_. É um esforço o qual disserto sobre o mundo de desenvolvimento de software como um todo, as vezes no campo das ideias, as vezes no campo mais prático.\n\nAcredito que muitos desenvolvedores deveriam ter um espaço assim. Lembro-me de uma ocasião que estava mostrando alguns códigos para um colega que entusiasmado afirmou: - Cara, você deveria compartilhar isso. Na verdade era algo que já estava público, no meu Github, porém, se eu não falasse, ele nunca saberia. Por isso existe uma necessidade de se dissertar sobre essas ideias e trabalhos para que se tornem compartilháveis. Isso acontece com experimentos, discussões, reflexões no trabalho ou mesmo debaixo do chuveiro, afinal as epifanias não escolhem lugar.\n\nPortanto, sinta-se à vontade para ler os conteúdos conseguintes. Espero de verdade que possa contribuir de alguma forma com a concepção do leitor sobre o desenvolvimento de software, até mesmo bater um papo com alguém que ocasionalmente tenha algum comentário a fazer. Enfim, seja bem vindo!\n",
+        "contentDigest": "bd08f09f50ca8b156cfda57c71305dc6",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Hello World",
+        "date": "2017-12-24T22:12:03.284Z",
+        "_PARENT": "/home/pwener/Workspace/pwener.github.io/src/pages/hello-world/index.md absPath of file",
+        "parent": "/home/pwener/Workspace/pwener.github.io/src/pages/hello-world/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/home/pwener/Workspace/pwener.github.io/src/pages/hello-world/index.md",
+      "fields": {
+        "slug": "/hello-world/"
+      }
+    },
+    "/home/pwener/Workspace/pwener.github.io/src/pages/about.js absPath of file": {
+      "id": "/home/pwener/Workspace/pwener.github.io/src/pages/about.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1cb728fa8d2469ef93fbb2007334b9ca",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/pwener/Workspace/pwener.github.io/src/pages/about.js",
+      "relativePath": "about.js",
+      "extension": "js",
+      "size": 2765,
+      "prettySize": "2.77 kB",
+      "modifiedTime": "2019-04-19T05:43:04.640Z",
+      "accessTime": "2019-04-19T05:43:40.944Z",
+      "changeTime": "2019-04-19T05:43:04.640Z",
+      "birthTime": "2019-04-19T05:43:04.640Z",
+      "root": "/",
+      "dir": "/home/pwener/Workspace/pwener.github.io/src/pages",
+      "base": "about.js",
+      "ext": ".js",
+      "name": "about",
+      "relativeDirectory": "",
+      "dev": 2049,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 13009724,
+      "blocks": 8,
+      "atimeMs": 1555652620944.0999,
+      "mtimeMs": 1555652584640.1875,
+      "ctimeMs": 1555652584640.1875,
+      "birthtimeMs": 1555652584640.1875,
+      "atime": "2019-04-19T05:43:40.944Z",
+      "mtime": "2019-04-19T05:43:04.640Z",
+      "ctime": "2019-04-19T05:43:04.640Z",
+      "birthtime": "2019-04-19T05:43:04.640Z"
+    },
+    "/home/pwener/Workspace/pwener.github.io/src/pages/desenvolvimento-software-artesanal/index.md absPath of file": {
+      "id": "/home/pwener/Workspace/pwener.github.io/src/pages/desenvolvimento-software-artesanal/index.md absPath of file",
+      "children": [
+        "/home/pwener/Workspace/pwener.github.io/src/pages/desenvolvimento-software-artesanal/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b962d4fa462366008d863e2070b3c483",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/pwener/Workspace/pwener.github.io/src/pages/desenvolvimento-software-artesanal/index.md",
+      "relativePath": "desenvolvimento-software-artesanal/index.md",
+      "extension": "md",
+      "size": 3338,
+      "prettySize": "3.34 kB",
+      "modifiedTime": "2019-04-19T05:43:04.660Z",
+      "accessTime": "2019-04-19T05:43:40.944Z",
+      "changeTime": "2019-04-19T05:43:04.660Z",
+      "birthTime": "2019-04-19T05:43:04.640Z",
+      "root": "/",
+      "dir": "/home/pwener/Workspace/pwener.github.io/src/pages/desenvolvimento-software-artesanal",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "desenvolvimento-software-artesanal",
+      "dev": 2049,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 13009727,
+      "blocks": 8,
+      "atimeMs": 1555652620944.0999,
+      "mtimeMs": 1555652584660.1873,
+      "ctimeMs": 1555652584660.1873,
+      "birthtimeMs": 1555652584640.1875,
+      "atime": "2019-04-19T05:43:40.944Z",
+      "mtime": "2019-04-19T05:43:04.660Z",
+      "ctime": "2019-04-19T05:43:04.660Z",
+      "birthtime": "2019-04-19T05:43:04.640Z"
+    },
+    "/home/pwener/Workspace/pwener.github.io/src/pages/desenvolvimento-software-artesanal/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/home/pwener/Workspace/pwener.github.io/src/pages/desenvolvimento-software-artesanal/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/home/pwener/Workspace/pwener.github.io/src/pages/desenvolvimento-software-artesanal/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Desenvolvimento de Software não é artesanato\ndate: \"2018-07-18T10:26:00Z\"\n---\n\n### \"Software vem sendo feito de forma artesanal.\n\nEra mais ou menos isso que meu coorientador dizia nas aulas ou em outras\nconversas no qual ele reforçava o quanto o mercado de software era defasado. Eu\nachava ter entendido a dimensão dessa fala, mas cada dia me surpreendo o quanto\nessa ideia é viva no mercado, e achei justo discursar mais sobre isso.\n\nÉ natural que alguém que não seja da área, veja o desenvolvimento de software\ncomo algo trivial. \"É só criar essa interface\", \"Não deve dar trabalho não\",\n\"Faz ai, qualquer dúvida pode me perguntar\". São algumas das frases que estamos\nacostumados a ouvir. O problema maior começa quando os desenvolvedores também\nacreditam que pra satisfazer as necessidades dos seus clientes, basta\nsimplesmente **por a mão na massa**.\n\nUm dia essa foi a única forma de desenvolver software. Conforme explica\nSommerville, os sistemas de software não eram grandes e complexos, portanto não\ndemandavam as técnicas e métodos que surgiram a partir da chamada **crise do\nsoftware**. Quando o hardware começou a permitir o que até então parecia\ninviável, o mercado sentiu uma pressão que resultou nos inúmeros métodos de\ndesenvolvimento que conhecemos hoje, alguns dos quais enchem as bocas dos\nmarketeiros que vendem a ideia do desenvolvimento **perfeito** de software.\n\nO que ninguém esperava, é que muitos desses métodos seriam usados de forma tão\ndeformada, escondendo com encanto um desenvolvimento artesanal, sob o\npretexto de um compensador processo comunicativo, colaborativo e adaptativo, um\nautêntico mito da [bala de\nprata](http://www.cs.nott.ac.uk/~pszcah/G51ISS/Documents/NoSilverBullet.html) do\ndesenvolvimento de software. Eu não sou o primeiro a dizer isso, o ousado\nartigo [Agile is Dead](https://www.linkedin.com/pulse/agile-dead-matthew-kern/)\nreporta uma onda de discurssão nesse sentido.\n\nO que tenho observado, é que a confiança demasiada nos valores ágeis gera uma\ncerta negligência nas atividades centrais do desenvolvimento de software, como\npor exemplo, análise e levantamento de requisitos, desenho de software e testes. Tem uma boa\nrazão pra isso. Por exemplo, é mais fácil acusar falha de comunicação do que perceber que o\nproblema de não estar correspondendo as expectativas do cliente é por uma falha\nou descaso total com os requisitos de software.\n\n### \"Ok, mas qual o contrário disso?\n\nPor motivos óbvios, prédios, aviões ou mesmo eletrodomésticos, não são feitos sem\num trabalho de engenharia. Sem engenharia esses projetos não seriam confiáveis,\nteriam uma qualidade inferior com preços e prazos superiores, a\n[história](https://www.bbc.com/portuguese/noticias/2014/05/140530_erros_ciencia_engenharia_rb) tem\ninúmeras provas da falta ou falha de engenharia. Com software não é\n[diferente](https://www.bbc.com/portuguese/noticias/2015/05/150513_vert_fut_bug_digital_ml).\n\nNão existe outra saída, projetos de qualidade exigem Engenharia,\na acadêmia e os gigantes do mercado já sabem disso. Outras empresas nadam a deriva\na procura de produzir software barato, com filosofias ou métodos \"inovadores\".\nO que para pequenos projetos pode dar certo, ao passo que se aumenta a complexidade,\npode se tornar um pesadelo.\n",
+        "contentDigest": "cf270d08adabef40a90f21001c7d7ff2",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Desenvolvimento de Software não é artesanato",
+        "date": "2018-07-18T10:26:00Z",
+        "_PARENT": "/home/pwener/Workspace/pwener.github.io/src/pages/desenvolvimento-software-artesanal/index.md absPath of file",
+        "parent": "/home/pwener/Workspace/pwener.github.io/src/pages/desenvolvimento-software-artesanal/index.md absPath of file"
+      },
+      "fileAbsolutePath": "/home/pwener/Workspace/pwener.github.io/src/pages/desenvolvimento-software-artesanal/index.md",
+      "fields": {
+        "slug": "/desenvolvimento-software-artesanal/"
+      }
+    },
+    "/home/pwener/Workspace/pwener.github.io/src/pages/hello-world/salty_egg.jpg absPath of file": {
+      "id": "/home/pwener/Workspace/pwener.github.io/src/pages/hello-world/salty_egg.jpg absPath of file",
+      "children": [
+        "/home/pwener/Workspace/pwener.github.io/src/pages/hello-world/salty_egg.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/home/pwener/Workspace/pwener.github.io/src/pages/hello-world/salty_egg.jpg",
+      "relativePath": "hello-world/salty_egg.jpg",
+      "extension": "jpg",
+      "size": 684322,
+      "prettySize": "684 kB",
+      "modifiedTime": "2019-04-19T05:43:04.672Z",
+      "accessTime": "2019-04-19T05:43:40.944Z",
+      "changeTime": "2019-04-19T05:43:04.672Z",
+      "birthTime": "2019-04-19T05:43:04.660Z",
+      "root": "/",
+      "dir": "/home/pwener/Workspace/pwener.github.io/src/pages/hello-world",
+      "base": "salty_egg.jpg",
+      "ext": ".jpg",
+      "name": "salty_egg",
+      "relativeDirectory": "hello-world",
+      "dev": 2049,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 13120292,
+      "blocks": 1344,
+      "atimeMs": 1555652620944.0999,
+      "mtimeMs": 1555652584672.1873,
+      "ctimeMs": 1555652584672.1873,
+      "birthtimeMs": 1555652584660.1873,
+      "atime": "2019-04-19T05:43:40.944Z",
+      "mtime": "2019-04-19T05:43:04.672Z",
+      "ctime": "2019-04-19T05:43:04.672Z",
+      "birthtime": "2019-04-19T05:43:04.660Z"
+    },
+    "/home/pwener/Workspace/pwener.github.io/src/pages/hello-world/salty_egg.jpg absPath of file >> ImageSharp": {
+      "id": "/home/pwener/Workspace/pwener.github.io/src/pages/hello-world/salty_egg.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/home/pwener/Workspace/pwener.github.io/src/pages/hello-world/salty_egg.jpg absPath of file",
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "layout": "index",
+      "jsonName": "offline-plugin-app-shell-fallback.json",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "updatedAt": 1579916628094,
+      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
+      "pluginCreatorId": "Plugin gatsby-plugin-offline",
+      "componentPath": "/home/pwener/Workspace/pwener.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0a1fb0a20c226e00ce2af15cb9a504d6",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /hello-world/": {
+      "layout": "index",
+      "jsonName": "hello-world.json",
+      "internalComponentName": "ComponentHelloWorld",
+      "path": "/hello-world/",
+      "component": "/home/pwener/Workspace/pwener.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/hello-world/"
+      },
+      "updatedAt": 1579916628172,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/home/pwener/Workspace/pwener.github.io/src/templates/blog-post.js",
+      "id": "SitePage /hello-world/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "58a5b1c0eee7bc015dc5e897e52ce9bb",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /desenvolvimento-software-artesanal/": {
+      "layout": "index",
+      "jsonName": "desenvolvimento-software-artesanal.json",
+      "internalComponentName": "ComponentDesenvolvimentoSoftwareArtesanal",
+      "path": "/desenvolvimento-software-artesanal/",
+      "component": "/home/pwener/Workspace/pwener.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/desenvolvimento-software-artesanal/"
+      },
+      "updatedAt": 1579916628175,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/home/pwener/Workspace/pwener.github.io/src/templates/blog-post.js",
+      "id": "SitePage /desenvolvimento-software-artesanal/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a5cac3d319e3065eb8215c0ec51ecc7d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/home/pwener/Workspace/pwener.github.io/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "updatedAt": 1579916628202,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/home/pwener/Workspace/pwener.github.io/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7ea39383201c8b5f04ab18bc4e6315f8",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /cv/": {
+      "layout": "index",
+      "jsonName": "cv.json",
+      "internalComponentName": "ComponentCv",
+      "path": "/cv/",
+      "component": "/home/pwener/Workspace/pwener.github.io/src/pages/cv.js",
+      "componentChunkName": "component---src-pages-cv-js",
+      "context": {},
+      "updatedAt": 1579916628204,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/home/pwener/Workspace/pwener.github.io/src/pages/cv.js",
+      "id": "SitePage /cv/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "db2775062d3116f73cea295695fdcc06",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/home/pwener/Workspace/pwener.github.io/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "updatedAt": 1579916628205,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/home/pwener/Workspace/pwener.github.io/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5b730c791e9a453444dadb424fd34f6a",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "9d507389015c90d724bfd4f5c10ca37b"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "/hello-world/",
+        "/desenvolvimento-software-artesanal/",
+        "/"
+      ],
+      "/home/pwener/Workspace/pwener.github.io/src/pages/hello-world/index.md absPath of file >>> MarkdownRemark": [
+        "/hello-world/"
+      ],
+      "/home/pwener/Workspace/pwener.github.io/src/pages/desenvolvimento-software-artesanal/index.md absPath of file >>> MarkdownRemark": [
+        "/desenvolvimento-software-artesanal/"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        "/"
+      ]
+    }
+  }
+}
