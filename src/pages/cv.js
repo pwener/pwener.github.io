@@ -30,23 +30,30 @@ class Curriculum extends React.Component {
                   <div className="split" style={{width: '50%'}}>
 
                     <h2 style={{marginBottom: rhythm(1)}}>Experiências</h2>
+
+                    <Experience
+                      title={'Cerc Central de Recebíveis'}
+                      role={'Engenheiro de Software'}
+                      date={'Janeiro de 2021 - Até o momento'}
+                      description={'Desenvolvimento de sistema de registro financeiro em Node/Golang utilizando Google Cloud Plataform.'} />
+
                     <Experience
                       title={'ZRP Aplicações Informáticas LTDA'}
                       role={'Engenheiro de Software'}
-                      date={'Outubro de 2019 - Até o momento'}
-                      description={'Desenvolvimento full stack na Startup Creditas'} />
+                      date={'Outubro de 2019 - Janeiro de 2021'}
+                      description={'Desenvolvimento fullstack, atuando com React Native, Python e AWS'} />
 
                     <Experience
                       title={'Goledger'}
                       role={'Engenheiro de Software'}
                       date={'Julho de 2018 - Outubro de 2019'}
-                      description={'Desenvolvimento de Blockchain privadas, atua com as tecnologias React, Python e Golang'} />
+                      description={'Desenvolvimento de Blockchain privadas, atuando com as tecnologias React, Python e Golang'} />
 
                     <Experience
                       title={'D3'}
                       role={'Engenheiro de Software'}
                       date={'Janeiro de 2018 - Julho de 2018'}
-                      description={'Desenvolvimento de diversos projetos, atuou com React Native e Python'} />
+                      description={'Desenvolvimento de diversos projetos, atuando com React Native e Python'} />
 
                     <Experience
                       title={'Basis TI'}
@@ -83,19 +90,21 @@ class Curriculum extends React.Component {
                       description={'EIBSBNET, Brasilia-DF'} />
 
                     <Education
-                      course={'Técnico Webdesign(HTML/CSS)'}
+                      course={'Técnico(HTML/CSS)'}
                       description={'ETSP, Planaltina-DF'} />
 
                     <h2 style={{marginBottom: rhythm(1)}}>Habilidades</h2>
                     <Skills
                       skills={[
-                        {name: 'Devops', percent: 80},
-                        {name: 'Gerenciamento de projeto', percent: 90},
-                        {name: 'Javascript', percent: 95},
-                        {name: 'Python', percent: 70},
+                        {name: 'Cloud', percent: 70},
+                        {name: 'Javascript/Node', percent: 85},
+                        {name: 'Python', percent: 65},
+                        {name: 'Ruby', percent: 60},
+                        {name: 'Golang', percent: 60},
+                        {name: 'Gerenciamento de projeto', percent: 80},
+                        {name: 'Práticas Ágeis', percent: 80},
                         {name: 'Requisitos de Software', percent: 95},
-                        {name: 'Ruby', percent: 70},
-                        {name: 'Testes e Refatoração', percent: 80},
+                        {name: 'Testes e Refatoração', percent: 85},
                       ]}/>
                   </div>
                 </div>
