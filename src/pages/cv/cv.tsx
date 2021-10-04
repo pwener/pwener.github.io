@@ -1,11 +1,11 @@
-import "./cv-styles.css"
+import "../resume-styles.css"
 
 import * as React from "react"
 
-import BurguerMenu from "../components/menu/menu"
-import Curriculum from "../components/cv/curriculum"
-import Footer from "../components/footer/footer"
-import { ptbr } from "./cv-data"
+import BurguerMenu from "../../components/menu/menu"
+import Curriculum from "../../components/cv/curriculum"
+import Footer from "../../components/footer/footer"
+import ptbr from "../resume-ptbr"
 
 const CurriculumPage = () => {
   return (
