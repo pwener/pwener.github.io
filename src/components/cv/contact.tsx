@@ -1,5 +1,3 @@
-import "./cv.css"
-
 import { FaEnvelope } from "@react-icons/all-files/fa/FaEnvelope"
 import { FaGithub } from "@react-icons/all-files/fa/FaGithub"
 import { FaHome } from "@react-icons/all-files/fa/FaHome"

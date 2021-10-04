@@ -1,18 +1,19 @@
-import "./cv.css"
-
 import React from "react"
 
 interface EducationProps {
-  name: string
-  description: string
+  education: Array<Education>
 }
 
-const Education = ({ description, name }: EducationProps) => {
+const Education = ({ education }: EducationProps) => {
   return (
-    <div>
-      <h2 className="subsection-title">{name}</h2>
-      <div>{description}</div>
-    </div>
+    <>
+      {education.map(({ name, description }) => (
+        <div>
+          <h2 className="subsection-title">{name}</h2>
+          <div>{description}</div>
+        </div>
+      ))}
+    </>
   )
 }
 

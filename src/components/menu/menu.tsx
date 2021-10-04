@@ -17,10 +17,10 @@ const BurguerMenu = () => {
         <MdPermIdentity /> Sobre mim
       </a>
       <a className="menu-item" href="/cv">
-        <MdFolderSpecial /> Currículo
+        <MdFolderSpecial /> Currículo [pt-BR]
       </a>
-      <a className="menu-item" href="/cv">
-        <MdFolderSpecial /> Resume
+      <a className="menu-item" href="/resume">
+        <MdFolderSpecial /> Resume [en-US]
       </a>
     </Menu>
   )

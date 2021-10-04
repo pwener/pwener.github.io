@@ -5,15 +5,20 @@ import * as React from "react"
 import BurguerMenu from "../components/menu/menu"
 import Curriculum from "../components/cv/curriculum"
 import Footer from "../components/footer/footer"
-import { ptbr } from "./cv-data"
+import { en } from "./cv-data"
 
 const CurriculumPage = () => {
   return (
     <>
       <BurguerMenu />
       <Curriculum
-        {...ptbr}
-        headers={["Experiências", "Contato", "Educação", "Habilidades"]}
+        {...en}
+        headers={[
+          "Professional Experience",
+          "Contact Information",
+          "Education",
+          "Skills",
+        ]}
       />
       <Footer />
     </>

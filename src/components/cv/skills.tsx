@@ -1,15 +1,8 @@
-import "./cv.css"
-
 import { Line } from "rc-progress"
 import React from "react"
 
-interface Attribute {
-  name: string
-  percent: number
-}
-
 interface SkillProps {
-  skills: Array<Attribute>
+  skills: Array<Skills>
 }
 
 const Skills = ({ skills }: SkillProps) => {
