@@ -1,0 +1,24 @@
+.header-container {
+  height: var(--maxWidth-xs);
+}
+
+.header-wrapper {
+  height: var(--maxWidth-xs);
+  width: 100%;
+  text-align: "center";
+  position: "absolute";
+  top: 0;
+  left: 0;
+  /* background-color: #3f4756; */
+  background-image: linear-gradient(to right, #0d162b, #2d3357);
+}
+
+#header-title {
+  text-align: center;
+}
+
+.stars {
+  position: absolute;
+  pointer-events: none;
+  z-index: 2;
+}
