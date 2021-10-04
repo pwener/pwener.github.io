@@ -9,7 +9,7 @@
 
 Hello World,
 
-This is my gatsby's blog, create from this awesome [blog boilerplate](https://github.com/gatsbyjs/gatsby-starter-blog).
+This is my gatsby's blog, created from this awesome [boilerplate](https://github.com/gatsbyjs/gatsby-starter-blog).
 
 As the official template, this project is licensed under the 0BSD license. Feel free to copy something.
 
@@ -24,9 +24,9 @@ As the official template, this project is licensed under the 0BSD license. Feel 
     gatsby develop
     ```
 
-## Pratices and patterns
+## 📜 Pratices and patterns
 
-I bring to this project the idea of make things so simple as possible.
+I bring some concepts to make things so simple as possible for this project.
 
 - Avoiding frameworks to work with css.
 - Avoiding custom libs. It takes less than one day? So do it.
@@ -35,7 +35,7 @@ You should note some technical patterns like:
 
 - Typescript when possible.
 - Functional components.
-- If component have some style format, so made a folder with their css
+- If component have some style code, made a folder with their css.
 
 ## 🧐 What's inside?
 
