@@ -1,8 +1,10 @@
 import * as React from "react"
 
+import BurguerMenu from "./menu/menu"
 import Footer from "./footer/footer"
 import IndexHeader from "./header/header"
 import { Link } from "gatsby"
+import { MdKeyboardReturn } from "@react-icons/all-files/md/MdKeyboardReturn"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -18,16 +20,17 @@ const Layout = ({ location, title, children }) => {
   } else {
     header = (
       <Link className="header-link-home" to="/">
-        {title}
+        <MdKeyboardReturn />
       </Link>
     )
   }
 
   return (
     <>
-      {isRootPath ? <IndexHeader title={title} /> : null}
+      <BurguerMenu />
+      {isRootPath ? <IndexHeader /> : null}
       <div className="global-wrapper" data-is-root-path={isRootPath}>
-        <header className="global-header">{header}</header>
+        <header>{header}</header>
         <main>{children}</main>
         <Footer />
       </div>

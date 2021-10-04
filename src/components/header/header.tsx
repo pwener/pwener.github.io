@@ -13,7 +13,6 @@ const IndexHeader = () => {
         {Array.from(Array(starsQuantity)).map((_, i) => (
           <Star key={i} />
         ))}
-        {/* <BurguerMenu /> */}
       </div>
     </div>
   )
