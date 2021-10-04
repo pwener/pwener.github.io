@@ -12,7 +12,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="All posts" />
+      <Seo title="pwener.github.io" />
       <Bio />
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
