@@ -12,12 +12,16 @@ const STARS_PALETTE = [
   "#FFC46C;#FFFFFF;#FFC46C",
 ]
 
-const Star = () => {
+interface StarProps {
+  screenSize: number
+}
+
+const Star = ({ screenSize }: StarProps) => {
   const seed = random(1, 3)
   const size = seed / 10
   const colourIndex = seed % 5
   const duration = random(5, 15) / 10
-  const positionLeft = Math.random() * window.innerWidth
+  const positionLeft = Math.random() * screenSize
   const positionTop = Math.random() * 20
 
   return (

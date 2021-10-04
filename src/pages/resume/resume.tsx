@@ -5,7 +5,7 @@ import * as React from "react"
 import BurguerMenu from "../../components/menu/menu"
 import Curriculum from "../../components/cv/curriculum"
 import Footer from "../../components/footer/footer"
-import en from "../resume-en"
+import en from "../resume-en.json"
 
 const ResumePage = () => {
   return (
