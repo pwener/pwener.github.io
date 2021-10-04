@@ -9,7 +9,6 @@
   position: "absolute";
   top: 0;
   left: 0;
-  /* background-color: #3f4756; */
   background-image: linear-gradient(to right, #0d162b, #2d3357);
 }
 
@@ -19,6 +18,5 @@
 
 .stars {
   position: absolute;
-  pointer-events: none;
   z-index: 2;
 }

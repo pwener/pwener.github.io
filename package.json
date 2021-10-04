@@ -1,12 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "pwener-blog",
   "private": true,
   "description": "A starter for a blog powered by Gatsby and Markdown",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "version": "0.0.1",
+  "author": "Phelipe Wener <phwener@gmail.com>",
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
     "gatsby": "^3.13.1",
@@ -35,7 +32,6 @@
   "devDependencies": {
     "prettier": "2.4.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
     "gatsby"
   ],
@@ -43,7 +39,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/pwener/pwener.github.io.git"
   },
   "scripts": {
     "build": "gatsby build",

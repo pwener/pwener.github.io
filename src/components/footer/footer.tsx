@@ -1,9 +1,10 @@
 import "./styles.css"
 
+import * as React from "react"
+
 import { FaGithub } from "@react-icons/all-files/fa/FaGithub"
 import { FaHome } from "@react-icons/all-files/fa/FaHome"
 import { FaLinkedin } from "@react-icons/all-files/fa/FaLinkedin"
-import React from "react"
 
 const Footer = () => {
   return (
