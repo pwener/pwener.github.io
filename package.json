@@ -32,8 +32,19 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
+    "@types/enzyme": "^3.10.9",
+    "@types/jest": "^27.0.2",
     "@types/react-burger-menu": "^2.8.1",
-    "prettier": "2.4.1"
+    "@types/react-test-renderer": "^17.0.1",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.3",
+    "babel-jest": "^27.2.4",
+    "babel-preset-gatsby": "^1.14.0",
+    "enzyme": "^3.11.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.2.4",
+    "prettier": "2.4.1",
+    "react-test-renderer": "^17.0.2",
+    "ts-jest": "^27.0.5"
   },
   "keywords": [
     "gatsby"
@@ -51,6 +62,6 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "jest"
   }
 }

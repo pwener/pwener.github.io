@@ -12,6 +12,8 @@ const STARS_PALETTE = [
   "#FFC46C;#FFFFFF;#FFC46C",
 ]
 
+const WINDOW_HEIGHT = 20
+
 interface StarProps {
   screenSize: number
 }
@@ -19,17 +21,17 @@ interface StarProps {
 const Star = ({ screenSize }: StarProps) => {
   const seed = random(1, 3)
   const size = seed / 10
-  const colourIndex = seed % 5
+  const colourIndex = seed % STARS_PALETTE.length
   const duration = random(5, 15) / 10
   const positionLeft = Math.random() * screenSize
-  const positionTop = Math.random() * 20
+  const positionTop = Math.random() * WINDOW_HEIGHT
 
   return (
     <svg
       className="stars"
       viewBox="0 0 160 160"
       style={{
-        left: positionLeft,
+        left: `${positionLeft}px`,
         top: `${positionTop}rem`,
         width: `${size}rem`,
         height: `${size}rem`,
