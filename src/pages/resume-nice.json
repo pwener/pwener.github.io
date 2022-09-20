@@ -1,0 +1,60 @@
+{
+  "name": "Heleonice Pereira de Sousa",
+  "role": "Técnico em enfermagem",
+  "experiences": [
+    {
+      "title": "Hospital São Camilo",
+      "role": "Técnico em enfermagem",
+      "date": "2006",
+      "description": "Atuou em Enfermaria geral."
+    },
+    {
+      "title": "Clínica Capita",
+      "role": "Esteticista facial e corporal",
+      "date": "2009 - 2019",
+      "description": " Realização de tratamentos corporais estéticos. Também atuou ocasionalmente como técnica de enfermagem, no auxílio de procedimentos cirúrgicos."
+    },
+    {
+      "title": "Clínica Capita",
+      "role": "Técnico em enfermagem",
+      "date": "2019 - Até o momento",
+      "description": "Auxílio de procedimentos cirúrgicos oftalmológicos e dermatológicos, realizando ainda procedimentos estéticos."
+    }
+  ],
+  "contact": {
+    "email": "nicepja@gmail.com",
+    "number": "61 9256-3202",
+    "address": "Planaltina - GO, Quadra 4 MR 9 casa 31 Setor Leste"
+  },
+  "education": [
+    {
+      "name": "Técnico em enfermagem",
+      "description": "Colégio Sena Aires"
+    },
+    {
+      "name": "Operação do equipamento Vela Shape II",
+      "description": "Skintec"
+    },
+    {
+      "name": "Operação do equipamento KLD Biosistemas",
+      "description": "ISMD - São Paulo"
+    },
+    {
+      "name": "Limpeza profunda de pele",
+      "description": "VitaDerm hipoalergênica"
+    },
+    {
+      "name": "Drenagem linfática",
+      "description": "SECT"
+    },
+    {
+      "name": "Central de Material Esterilizado",
+      "description": "CME"
+    }
+  ],
+  "skills": [
+    { "name": "Comunicação", "percent": 90 },
+    { "name": "Compromisso", "percent": 100 },
+    { "name": "Procedimentos cirúrgicos", "percent": 80}
+  ]
+}

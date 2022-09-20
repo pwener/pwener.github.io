@@ -23,13 +23,6 @@ const Contact = ({ email, number, address, github }: ContactProps) => {
       <div>
         {address} <FaHome />
       </div>
-      <div>
-        <a href={"https://github.com/" + github}>
-          {"https://github.com/" + github}
-        </a>
-        &nbsp;
-        <FaGithub />
-      </div>
     </div>
   )
 }

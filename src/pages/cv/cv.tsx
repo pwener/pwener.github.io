@@ -5,7 +5,7 @@ import * as React from "react"
 import BurguerMenu from "../../components/menu/menu"
 import Curriculum from "../../components/cv/curriculum"
 import Footer from "../../components/footer/footer"
-import ptbr from "../resume-ptbr.json"
+import ptbr from "../resume-nice.json"
 
 const CurriculumPage = () => {
   return (
@@ -15,7 +15,6 @@ const CurriculumPage = () => {
         {...ptbr}
         headers={["Experiências", "Contato", "Educação", "Habilidades"]}
       />
-      <Footer />
     </>
   )
 }

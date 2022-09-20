@@ -52,16 +52,6 @@ const Curriculum = ({
       <div className="wrapper">
         <h1 className="name">{name}</h1>
         <h6 className="occupation">{role}</h6>
-        <StaticImage
-          className="bio-avatar"
-          layout="constrained"
-          formats={["auto", "webp", "avif"]}
-          src="../../images/profile-pic.png"
-          width={150}
-          height={150}
-          quality={100}
-          alt="Profile picture"
-        />
         <div
           className="cv-content"
           style={{ display: "flex", textAlign: "right" }}
