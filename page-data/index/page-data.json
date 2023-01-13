@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-index-js",
+    "path": "/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Blog do Wener"}},"allMarkdownRemark":{"nodes":[{"excerpt":"Vocês não estudam cálculo porque vão usar isso diariamente no trabalho, mas porque isso aprimora sua capacidade de raciocínio. Algum…","fields":{"slug":"/miojizacao-da-ti/"},"frontmatter":{"date":"October 05, 2021","title":"Miojização da TI","description":null}},{"excerpt":"“Software vem sendo feito de forma artesanal. Era mais ou menos isso que meu coorientador dizia nas aulas ou em outras\nconversas no qual ele…","fields":{"slug":"/desenvolvimento-software-artesanal/"},"frontmatter":{"date":"July 18, 2018","title":"Desenvolvimento de Software não é artesanato","description":null}},{"excerpt":"Espero que essa seja a minha primeira postagem de muitas, e nada mais justo do que começar escrevendo sobre as minhas motivações para ter…","fields":{"slug":"/hello-world/"},"frontmatter":{"date":"December 24, 2017","title":"Hello World","description":null}}]}},"pageContext":{}},
+    "staticQueryHashes": ["2841359383","3257411868"]}
