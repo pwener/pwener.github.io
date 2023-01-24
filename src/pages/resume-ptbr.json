@@ -49,13 +49,13 @@
   ],
   "skills": [
     { "name": "Cloud", "percent": 60 },
-    { "name": "Javascript/Node", "percent": 85 },
+    { "name": "Javascript/Node", "percent": 70 },
     { "name": "Python", "percent": 65 },
     { "name": "Ruby", "percent": 60 },
-    { "name": "Golang", "percent": 70 },
-    { "name": "Gerenciamento de projeto", "percent": 80 },
-    { "name": "Práticas Ágeis", "percent": 80 },
-    { "name": "Requisitos de Software", "percent": 90 },
-    { "name": "Testes e Refatoração", "percent": 85 }
+    { "name": "Golang", "percent": 85 },
+    { "name": "Software Design", "percent": 80 },
+    { "name": "Agile", "percent": 80 },
+    { "name": "Software Requirements", "percent": 90 },
+    { "name": "Tests and refactoring", "percent": 85 }
   ]
 }
