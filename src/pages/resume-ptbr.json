@@ -21,18 +21,6 @@
       "description": "Desenvolvimento de Blockchain privadas, atuando com as tecnologias React, Python e Golang"
     },
     {
-      "title": "D3",
-      "role": "Engenheiro de Software",
-      "date": "Janeiro de 2018 - Julho de 2018",
-      "description": "Desenvolvimento de diversos projetos, atuando com React Native e Python"
-    },
-    {
-      "title": "Basis TI",
-      "role": "Estagiário",
-      "date": "Agosto de 2017 - Janeiro de 2018",
-      "description": "Interpretação de requisitos para contagem de pontos de função em projetos governamentais."
-    },
-    {
       "title": "Tribunal de Contas da União (TCU)",
       "role": "Estagiário",
       "date": "Janeiro de 2016 - Janeiro de 2017",
@@ -51,12 +39,12 @@
       "description": "Universidade de Brasília, Gama-DF"
     },
     {
-      "name": "Técnico Java Web",
-      "description": "EIBSBNET, Brasilia-DF"
+      "name": "Architecting on the Cloud - The Ultimate Cloud Course",
+      "description": "Udemy"
     },
     {
-      "name": "Técnico(HTML/CSS)",
-      "description": "ETSP, Planaltina-DF"
+      "name": "Time and space complexity analysis (big-O notation)",
+      "description": "Udemy"
     }
   ],
   "skills": [
