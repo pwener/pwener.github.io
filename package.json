@@ -10,7 +10,7 @@
     "@react-icons/all-files": "^4.1.0",
     "gatsby": "^4.1.2",
     "gatsby-plugin-feed": "^3.15.0",
-    "gatsby-plugin-google-analytics": "^3.15.0",
+    "gatsby-plugin-google-analytics": "^5.7.0",
     "gatsby-plugin-image": "^1.15.0",
     "gatsby-plugin-manifest": "^3.15.0",
     "gatsby-plugin-offline": "^4.15.0",
