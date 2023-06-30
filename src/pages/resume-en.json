@@ -54,11 +54,11 @@
     }
   ],
   "skills": [
-    { "name": "Cloud", "percent": 85 },
-    { "name": "Javascript/Node", "percent": 70 },
+    { "name": "Cloud", "percent": 75 },
+    { "name": "Javascript/Node", "percent": 85 },
     { "name": "Python", "percent": 65 },
+    { "name": "Golang", "percent": 85 },
     { "name": "Ruby", "percent": 60 },
-    { "name": "Golang", "percent": 87 },
     { "name": "Software Design", "percent": 80 },
     { "name": "Agile", "percent": 80 },
     { "name": "Software Requirements", "percent": 80 },
